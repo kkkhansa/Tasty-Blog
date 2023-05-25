@@ -1,0 +1,72 @@
+﻿
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color:#FFFFFF;
+  color:black;
+}
+
+.header p {
+	font-family:"Lucida Handwriting";
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+#firstimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.leftcolumn {   
+  float: left;
+  width: 40%;
+  background-image:url('background%20choice2.jpg');
+  padding-left: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-image:url('background%20choice2.jpg');
+  padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card {
+	  background-color:#F6F6F6;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+.card p {
+	font-family:"Bahnschrift SemiLight Condensed"
+}
+.card h2 {
+font-family:Georgia, "Times New Roman", Times, serif
+}
+.card h3 {
+font-family:Georgia, "Times New Roman", Times, serif
+}
+.card h4 {
+font-family:"Cambria Math"	
+}
